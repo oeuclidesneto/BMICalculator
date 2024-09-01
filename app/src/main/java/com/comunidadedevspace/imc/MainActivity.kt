@@ -40,8 +40,6 @@ class MainActivity : AppCompatActivity() {
                 intent.putExtra(KEY_RESULT_BMI, result)
                 startActivity(intent)
 
-                println("Your BMI is " + result)
-
             }
         }
     }
