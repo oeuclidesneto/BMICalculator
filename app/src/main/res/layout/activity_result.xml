@@ -9,20 +9,22 @@
     android:orientation="vertical"
     tools:context=".ResultActivity">
 
-
     <LinearLayout
         android:id="@+id/vg_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/gradient_bg"
         android:orientation="vertical"
-        android:paddingBottom="56dp">
+        android:paddingBottom="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:src="@drawable/scale_icon"
             app:tint="@color/white" />
@@ -44,8 +46,7 @@
             android:layout_marginEnd="16dp"
             android:text="View the result and classification below:"
             android:textColor="@color/white"
-            android:textSize="16dp" />
-
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/tv_result"
@@ -69,20 +70,20 @@
         android:gravity="center"
         android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/tv_classification_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:text="Your BMI classification is:" />
+        <TextView
+            android:id="@+id/tv_classification_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="Your BMI classification is:" />
 
-    <TextView
-        android:id="@+id/tv_classification"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        tools:text="NORMAL" />
+        <TextView
+            android:id="@+id/tv_classification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="NORMAL" />
     </LinearLayout>
 
 </LinearLayout>
