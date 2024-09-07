@@ -1,4 +1,4 @@
-# Calculadora IMC
+# BMI Calculator
 A creative and intuitive native Android app built with Kotlin that helps users calculate and classify their Body Mass Index (BMI). Enter your height and weight, and the app will rate your BMI from underweight to morbid obesity.
 
 ## :camera_flash: Screenshots
