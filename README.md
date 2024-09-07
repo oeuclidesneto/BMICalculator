@@ -5,7 +5,7 @@ A creative and intuitive native Android app built with Kotlin that helps users c
 <img src="https://github.com/user-attachments/assets/31cca306-8aea-42d1-a3b2-ac9523fb7096" width=200/>
 <img src="https://github.com/user-attachments/assets/df4ff0cf-bb7b-4461-9c7b-843848248257" width=200/>
 
-## Tecnologias
+## Technologies
 - Activity
 - Intent
 - Snackbar
